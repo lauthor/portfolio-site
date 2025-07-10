@@ -1,0 +1,20 @@
+div.container article[data-section] {
+  border-left: 4px solid #2c3e50;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ✅ Pseudo-class: hover on links */
+a:hover {
+  color: #3498db;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+/* ✅ Pseudo-element: first-line of paragraph */
+p::first-line {
+  font-weight: 600;
+  color: #1a1a1a;
+}
